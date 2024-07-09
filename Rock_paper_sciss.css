@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body{
+    background-color: #f194b4;
+}
+
+h1{
+    background-color: #006c67;
+    color: #ffebc6;
+    height: 5rem;
+    line-height: 5rem;
+}
+
+h2{
+    color: chocolate;
+    margin-top: 1rem;
+}
+
+#message{
+    color: #eb5160;
+    font-size: 8vmin;
+}
+
+.msg-content{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+#new-gm{
+    background-color: rgb(191, 223, 221);
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: black;
+    border-radius: 1rem;
+    /* border: none; */
+}
+
+
+.hide{
+    display: none;
+}
+
+.choice:hover{
+    opacity: 0.8;
+    cursor: pointer;
+    background-color: #006c67;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    gap: 2rem;
+}
+
+.choice{
+    height: 140px;
+    width: 140px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+img{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+}
+
+/* Score board */
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    font-weight: bold;
+}
+
+#you,#comp{
+    font-size: 3rem;
+}
+
+.msg-cont{
+    margin-top: 3rem;
+}
+
+#msg{
+    background-color: #006c67;
+    color: #ffb100;
+    font-size: 1.5rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+#reset{
+    padding: 1rem;
+    border-radius: 1rem;
+    color: #ffebc6;
+    background-color: #003844;
+    margin-top: 2.6rem;
+}
+

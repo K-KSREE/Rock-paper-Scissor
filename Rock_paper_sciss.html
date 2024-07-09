@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-paper-Scissors Game</title>
+    <link rel="stylesheet" href="Rock_paper_sciss.css" />
+</head>
+<body>
+    <h1>Rock-paper-Scissors</h1>
+    <h2>Score 11 to win</h2>
+    <div class="msg-content hide">
+        <p id="message">Winner</p>
+        <button id="new-gm">New Game</button>
+    </div>
+    <div class="choices">
+        <div class="choice" id="Rock">
+            <img src="/images/rock.jfif" />
+        </div>
+        <div class="choice" id="Paper">
+            <img src="/images/paper.jfif" />
+        </div>
+        <div class="choice" id="Scissors">
+            <img src="/images/scissor.jfif" />
+        </div>
+    </div>
+
+    <div class="score-board">
+        <div class="score">
+            <p id="you">0</p>
+            <p>You</p>
+        </div>
+        <div class="score">
+            <p id="comp">0</p>
+            <p>Computer</p>
+        </div>
+    </div>
+
+    <div class="msg-cont ">
+        <!-- <p id="userCh">User choice</p>
+        <p id="compCh">Computer choice</p> -->
+        <p id="msg">It's your move now</p>
+    </div>
+    <button id="reset">Reset Game</button>
+
+    <script src="Rock_paper_sciss.js"></script>
+</body>
+</html>
